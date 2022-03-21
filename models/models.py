@@ -6,7 +6,7 @@ class Persona(models.Model):
     nombre = models.CharField(max_length=20)
     apellido = models.CharField(max_length=30)
     nacimiento = models.DateTimeField()
-    Nrocomitente = models.IntegerField()
+    nrocomitente = models.IntegerField()
     perfilriesgo = models.CharField(max_length=20)
 
 class Broker(models.Model):

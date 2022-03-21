@@ -5,4 +5,12 @@
 {% endblock header_block %}
 
 {% block 'body_block' %}
+     <form action="" method = "post">
+         {% csrf_token %}
+        <table>
+            {{form.as_table}}
+        </table>
+        <input type="submit" value = "crear">
+     </form>
+       
 {% endblock 'body_block' %}
