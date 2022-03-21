@@ -6,5 +6,4 @@ class comitenteformulario(forms.Form):
     nacimiento = forms.DateTimeField()
     nrocomitente = forms.IntegerField()
     perfilriesgo = forms.CharField(max_length=20)
-
     
